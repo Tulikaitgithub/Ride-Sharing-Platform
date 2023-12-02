@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: darkcyan;
+}
+
+
+@media screen and (max-width: 667px) {
+    .carousel-inner {
+        height: 150px !important;
+    }
+}
+
+
+
+#four_box {
+    background-color: grey;
+    display: inline-flex;
+    width: 100%;
+
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.x1 h1 {
+
+    padding-top: 70px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.x1 p {
+    padding-left: 3px;
+    padding-top: 180px;
+    font-size: 15px;
+}
+
+.x1 input {
+    width: 100%;
+}
+
+.x2 h4 {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.x2 ul li {
+    min-height: 6vh;
+    list-style: none;
+    font-size: 15px;
+
+}
+
+.x2 input {
+    width: 50%;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.x3 h4 {
+    padding-top: 40px;
+
+}
+
+.x3 ul li {
+    min-height: 6vh;
+    list-style: none;
+    font-size: 15px;
+}
+
+.x4 h4 {
+    padding-top: 40px;
+}
+
+.x4 ul li {
+    min-height: 6vh;
+    list-style: none;
+    font-size: 15px;
+
+}
+
+.bin {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
